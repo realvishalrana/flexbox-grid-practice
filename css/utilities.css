@@ -24,6 +24,64 @@
   transform: scale(0.98);
 }
 
+/* Background & Colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-light a,
+.btn-light a,
+.bg-dark a,
+.btn-dark a,
+.bg-secondary a,
+.btn-secondary a {
+  color: #fff;
+}
+
+/* Text size */
+
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1em;
+}
+
+.md {
+  font-size: 2em;
+}
+
+.lg {
+  font-size: 3em;
+}
+
+.xl {
+  font-size: 4em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -66,12 +124,15 @@
 .my-2 {
   margin: 1.5rem 0;
 }
+
 .my-3 {
   margin: 2rem 0;
 }
+
 .my-4 {
   margin: 3rem 0;
 }
+
 .my-5 {
   margin: 4rem 0;
 }
@@ -83,12 +144,15 @@
 .m-2 {
   margin: 1.5re;
 }
+
 .m-3 {
   margin: 2rem;
 }
+
 .m-4 {
   margin: 3rem;
 }
+
 .m-5 {
   margin: 4rem;
 }
@@ -102,12 +166,15 @@
 .py-2 {
   padding: 1.5rem 0;
 }
+
 .py-3 {
   padding: 2rem 0;
 }
+
 .py-4 {
   padding: 3rem 0;
 }
+
 .py-5 {
   padding: 4rem 0;
 }
@@ -119,12 +186,15 @@
 .p-2 {
   margin: 1.5re;
 }
+
 .p-3 {
   margin: 2rem;
 }
+
 .p-4 {
   margin: 3rem;
 }
+
 .p-5 {
   margin: 4rem;
 }
